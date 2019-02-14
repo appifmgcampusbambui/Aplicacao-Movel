@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Início"
+            android:id="@+id/menu_meucampus"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:title="Notícias"
+            android:id="@+id/menu_noticias"
+            android:icon="@drawable/ic_news"/>
+
+        <item android:title="Eventos"
+            android:id="@+id/menu_eventos"
+            android:icon="@drawable/ic_action_name"/>
+        <item android:title="Calendário Acadêmico"
+            android:id="@+id/menu_calendario_academico"
+            android:icon="@drawable/ic_calendario_academico"/>
+
+        <item android:title="Cardápio"
+            android:id="@+id/menu_cardapio"
+            android:icon="@drawable/ic_food"/>
+
+        <item android:title="Horário de Ônibus"
+            android:id="@+id/menu_busao"
+            android:icon="@drawable/ic_busao"/>
+
+        <item android:title="Mapa do Campus"
+            android:id="@+id/menu_mapa"
+            android:icon="@drawable/ic_map"/>
+
+        <item android:title="Sobre"
+            android:id="@+id/menu_sobre"
+            android:icon="@drawable/ic_sobre"/>
+    </group>
+
+</menu>
